@@ -351,14 +351,21 @@ body::before {
     font-size: 34px;
     font-weight: 900;
     font-family: 'Share Tech Mono', monospace;
-    color: var(--c-gold);
-    text-shadow: 0 0 12px var(--c-gold);
+    background: linear-gradient(90deg, #d4af37, #ff2a2a, #fff5c0, #d4af37);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: goldRedGlow 4s ease infinite;
 }
 
 .wib {
     font-size: 20px;
     letter-spacing: 2px;
-    color: var(--c-red);
+    background: linear-gradient(90deg, #d4af37, #ff2a2a, #fff5c0, #d4af37);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: goldRedGlow 4s ease infinite;
 }
 
 .status {
@@ -425,8 +432,12 @@ body::before {
     font-size: 28px;
     font-weight: 900;
     letter-spacing: 1px;
-    color: var(--c-gold);
-    text-shadow: 0 0 12px var(--c-gold);
+    background: linear-gradient(90deg, #d4af37, #ff2a2a, #fff5c0, #d4af37);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: goldRedGlow 4s ease infinite;
+
     transition: all 0.2s ease;
 }
 
